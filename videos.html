@@ -1,0 +1,49 @@
+<!-- templates/ethics/videos.html -->
+{% extends 'ethics/base.html' %}
+{% block title %}Оқытушы бейнероликтер{% endblock %}
+{% block content %}
+<section class="py-5" style="background: linear-gradient(to left, #e0f7fa, #b2ebf2); min-height: 100vh;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-dark">Сөйлеу әдебі бойынша бейнематериалдар</h2>
+        <p class="text-center text-muted mb-5">Қарым-қатынас мәдениетін, шешендік өнерді және тіл әдебін меңгеруге арналған таңдаулы бейнежазбалар.</p>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card h-100 border-0 shadow rounded-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/JyxZxMiD4Nw" title="Сөйлеу әдебі" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Сөйлеу әдебінің негіздері</h5>
+                        <p class="card-text">Қарым-қатынаста қолданылатын негізгі сөйлеу ережелері мен сыпайылық тәсілдері көрсетіледі.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 border-0 shadow rounded-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/YXoUOf2mS6k" title="Коммуникативтік дағдылар" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Коммуникативтік мәдениет</h5>
+                        <p class="card-text">Жеке және кәсіби ортада қалай дұрыс сөйлесу, келісімді әрі жағымды диалог жүргізу жолдары түсіндіріледі.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 border-0 shadow rounded-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/WcJ-xhw_bbc" title="Тыңдай білу" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Белсенді тыңдау әдістері</h5>
+                        <p class="card-text">Бейнежазбада тиімді тыңдау, сұрақ қою және кері байланыс орнату тәсілдері ұсынылады.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

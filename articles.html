@@ -1,0 +1,52 @@
+<!-- templates/ethics/articles.html -->
+{% extends 'ethics/base.html' %}
+{% block title %}Сөз әдебі бойынша мақалалар{% endblock %}
+{% block content %}
+<section class="py-5" style="background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2); min-height: 100vh;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-dark fw-bold">Сөз әдебі бойынша ғылыми-танымдық мақалалар</h2>
+        <p class="text-center text-muted mb-5">Тіл мәдениеті, шешендік өнер, тұлғалық қарым-қатынас пен сөйлеу әдебі туралы зерттеу мақалалар жинағы.</p>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0 rounded-4">
+                    <div class="card-body d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-primary-subtle text-primary">Тіл имиджі</span>
+                        </div>
+                        <h5 class="card-title text-primary fw-semibold">Сөйлеу имиджін қалыптастыру жолдары</h5>
+                        <p class="card-text text-dark">Сөйлеу мәнері мен тілдік бейне тұлғалық имиджді қалай қалыптастырады? Аудиторияға әсер ету тәсілдерімен танысыңыз.</p>
+                        <a href="#" class="btn btn-outline-primary rounded-pill mt-auto">Мақаланы оқу</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0 rounded-4">
+                    <div class="card-body d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-warning-subtle text-warning">Білім беру</span>
+                        </div>
+                        <h5 class="card-title text-primary fw-semibold">Білім беру саласындағы сөз әдебі</h5>
+                        <p class="card-text text-dark">Педагог пен студент арасындағы тілдік қарым-қатынас, сыныптағы сөйлеу мәдениеті мен академиялық этикеттің маңызы.</p>
+                        <a href="#" class="btn btn-outline-warning rounded-pill mt-auto">Мақаланы оқу</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-lg border-0 rounded-4">
+                    <div class="card-body d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-success-subtle text-success">Қоғам және тіл</span>
+                        </div>
+                        <h5 class="card-title text-primary fw-semibold">Қоғамдағы тіл нормалары және этика</h5>
+                        <p class="card-text text-dark">Заманауи коммуникациядағы тілдік мінез-құлық, әлеуметтік желілердегі сөз әдебі және сөз этикасының рөлі.</p>
+                        <a href="#" class="btn btn-outline-success rounded-pill mt-auto">Мақаланы оқу</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
